@@ -1,8 +1,11 @@
 # LinkedList Implementation
-- Menjelaskan konsep dasar linkedlist
-- Memahami bagaimana penerapan node pada linkedlist
-- Memahami bagaimana menggunakan linkedlist pada suatu kasus 
+- Dasar linkedlist
+- Penerapan node pada linkedlist
+- Menggunakan linkedlist pada suatu kasus
+- Implementasi sorting linkedlist menggunakan bubble sort
+- Implementasi sorting linkedlist menggunakan quick sort
 
-Menyelesaikan soal:
-1. Buatlah suatu program menggunakan linkedlist dan lakukan sorting menggunakan bubble sort! 
-2. Buatlah suatu program menggunakan linkedlist dan lakukan sorting menggunakan quick sort! 
+LinkedListNode.java : Class Node
+LinkedList.java     : Berisi method-method dasar linkedlist dan sorting
+Test.java           : Implementasi print, insert(push dengan sort) dan delete linkedlist
+SortList.java       : Implementasi push dan sorting linkedlist
